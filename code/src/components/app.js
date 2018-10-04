@@ -24,7 +24,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Sveriges Radio Stationer</h1>
+        <div className="imageHeadline"><img src="https://sverigesradio.se/kvinnoregistret/assets/images/sr-logo-white.png" alt="Sveriges Radio" /></div>
         <div className="stationContainer">
           {this.state.radioItems.map((channels) => {
             return <Station
