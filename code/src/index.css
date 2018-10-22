@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -61,8 +62,13 @@ audio {
 bottom: 0;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .stationContent {
     width: calc(100% - 20px);
+  }
+
+  .imageHeadline img{
+    width: 300px;
+    padding: 10px;
   }
 }
